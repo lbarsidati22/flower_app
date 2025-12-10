@@ -21,9 +21,7 @@ A beautiful and feature-rich Flutter application designed for browsing, searchin
 |:---:|:---:|:---:|:---:|
 | ![Cart](assets/screenshots/cart.png) | ![Checkout](assets/screenshots/checkout.png) | ![Profile](assets/screenshots/profile.png) | ![Notifications](assets/screenshots/notifications.png) |
 
-> *Note: Placeholders are used for screenshots. Please review the `assets/screenshots` folder to add your actual app screenshots.*
 
----
 
 ## ✨ Features
 
