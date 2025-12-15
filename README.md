@@ -13,15 +13,7 @@ A beautiful and feature-rich Flutter application designed for browsing, searchin
 
 ---
 
-## 📱 App Screenshots
 
-| Onboarding | Login | Home | Product Details |
-|:---:|:---:|:---:|:---:|
-| ![Onboarding](assets/screenshots/onboarding.png) | ![Login](assets/screenshots/login.png) | ![Home](assets/screenshots/home.png) | ![Details](assets/screenshots/details.png) |
-
-| Cart | Checkout | Profile | Notifications |
-|:---:|:---:|:---:|:---:|
-| ![Cart](assets/screenshots/cart.png) | ![Checkout](assets/screenshots/checkout.png) | ![Profile](assets/screenshots/profile.png) | ![Notifications](assets/screenshots/notifications.png) |
 
 
 
