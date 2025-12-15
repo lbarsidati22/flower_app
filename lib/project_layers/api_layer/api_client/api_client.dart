@@ -31,7 +31,7 @@ import '../models/response/login_response.dart';
 part 'api_client.g.dart';
 
 @singleton
-@RestApi(baseUrl: 'https://flower.elevateegy.com/api/')
+@RestApi(baseUrl: 'BASE_URL')
 abstract class ApiClient {
   @factoryMethod
   factory ApiClient(Dio dio) = _ApiClient;
@@ -118,30 +118,30 @@ abstract class ApiClient {
   Future<GetAllNotificationResponseDto>
   getNotifications();
 
-
   /// Cart Api
   @POST('v1/cart')
   Future<HttpResponse<CartResponseDto>> addToCart(
-      @Body() Map<String, dynamic> body,
-      @Header('Authorization') String token,
-      );
+    @Body() Map<String, dynamic> body,
+    @Header('Authorization') String token,
+  );
 
   @GET('v1/cart')
-  Future<HttpResponse<CartResponseDto>> getCart(@Header('Authorization') String token,);
-
+  Future<HttpResponse<CartResponseDto>> getCart(
+    @Header('Authorization') String token,
+  );
 
   @DELETE('v1/cart/{itemId}')
-  Future<HttpResponse<CartResponseDto>> deleteItemFromCart(@Path('itemId') String itemId, @Header('Authorization') String token,);
-
-
-
+  Future<HttpResponse<CartResponseDto>>
+  deleteItemFromCart(
+    @Path('itemId') String itemId,
+    @Header('Authorization') String token,
+  );
 
   @PUT('v1/cart/{itemId}')
   Future<HttpResponse<CartResponseDto>> updateCart(
-      @Path('itemId') String itemId,
-      @Body() Map<String, dynamic> body,
-      );
-
+    @Path('itemId') String itemId,
+    @Body() Map<String, dynamic> body,
+  );
 
   @DELETE('v1/cart')
   Future<HttpResponse<CartResponseDto>> clearCart();

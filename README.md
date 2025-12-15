@@ -1,3 +1,5 @@
+![Flower App Banner](assets/images/flower_app.png)
+
 # 🌸 Flower App
 
 A beautiful and feature-rich Flutter application designed for browsing, searching, and purchasing flowers. Built with **Clean Architecture** and **Flutter Bloc**, ensuring scalability, testability, and maintainability.
